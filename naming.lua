@@ -1,7 +1,7 @@
 M = {}
 
 M.name = function()
-    return "Francesco" or os.getenv("USER")
+    return os.getenv("USER") or "Francesco"
 end
 
 return M
